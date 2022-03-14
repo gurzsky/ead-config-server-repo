@@ -22,6 +22,13 @@ spring:
   rabbitmq:
     addresses: amqps://wfvxhtau:Fp4oP70iWz3z6nlgLEYnLTOVCfbBCRY1@tiger.rmq.cloudamqp.com/wfvxhtau
 
+logging:
+  level:
+    com.ead: INFO
+    root: INFO
+    org.springframework.web: INFO
+    org.hibernate: INFO
+
 ead:
   api:
     url:
